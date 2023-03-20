@@ -1,28 +1,21 @@
 .promo {
-  padding: 50px 0;
-  background-color: lightsteelblue;
-  border-radius: 10px;
+  padding-top: 89px;
+  // background-color: #red;
+  background-image: url("../images/promo.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  // width: 100%;
+
 }
 
 .promo-inner {
-  margin: 0 auto;
-  width: 1024px;
+  padding: 200px 0;
 
-  @media (max-width: 1279px) {
-    width: auto;
-    max-width: 1024px;
-  }
+
 }
 
-.promo-ttl {
-  font-size: $h1-fz-desktop;
-  font-weight: $h1-fw;
 
-  @media (max-width: 1279px) {
-    font-size: $h1-fz-tablet;
-  }
 
-  @media (max-width: 669px) {
-    font-size: $h1-fz-mobile;
-  }
-}
+
